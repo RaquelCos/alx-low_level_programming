@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *Main -entry 
+ *Main etry 
  */
 int main(void)
 {
