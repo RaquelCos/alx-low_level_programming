@@ -1,11 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * _putchar - writes the character c
- * @c: the character to print
- * Return: 1(Sucess) and -1(On error)
+ * _memset - Fills the first n bytes of the memory area
+ * @s: A pointer to the memory area to be filled
+ * @c: The character to fill the memory area with
+ * @n: The number of bytes to be filled
+ *
+ * Return: A pointer to the filled memory area @s
+ *
  */
-int _putchar(char c)
+void *_memset(void *s, int c, size_t n)
 {
-	return (write(1, &c, 1));
+	unsigned int index;
+	unsigned char *memory = s, value c;
+
+	for (index = 0; index < n; index++)
+		memory[index] = value;
+	return (memory);
 }
