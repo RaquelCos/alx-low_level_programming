@@ -6,7 +6,6 @@
  *
  * Return: Factorial of n
  */
-
 int factorial(int n)
 {
 	if (n < 0)
