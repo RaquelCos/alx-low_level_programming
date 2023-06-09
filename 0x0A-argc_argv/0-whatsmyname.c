@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Prints out the name of the program
@@ -8,7 +8,7 @@
  *
  * Return: 0 - means successful
  */
-int main(int argc _attribute_((unused)),char *argv[])
+int main(int argc _attribute_((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
 	
