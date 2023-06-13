@@ -7,7 +7,7 @@
  *
  *  Return: Pointer to @str(success) or NULL(error)
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *dup;
 	unsigned int, len;
