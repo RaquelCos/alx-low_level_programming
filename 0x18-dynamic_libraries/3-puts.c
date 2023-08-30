@@ -2,15 +2,15 @@
 
 /**
  * _puts - Prints a str to stdout
- * @str: Pointer to str printed
+ * @s: Pointer to str printed
  */
 void _puts(char *s)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
